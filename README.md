@@ -1,6 +1,8 @@
 # common-logs
 common-logs logutil logbetter
-#eg
+# eg
+```Java
+
 private final static Logger logger = LoggerFactory.getLogger(XX.class);
 
 LogBetter.instance(logger)
@@ -18,3 +20,4 @@ try{
             .setException(e)
             .log();
 }
+```
